@@ -1,0 +1,183 @@
+
+/*Colores*/
+:root {
+    --verde-oscuro: #363F2E;
+    --verde-medio: #778A6F;
+    --naranja: #D59775;
+    --beige: #D8B9A5;
+    --marron: #773A21;
+    --blanco: #EEEE;
+}
+
+body{
+    background-color: var(--beige);
+}
+
+.custom-menu{
+    background-color: var(--verde-medio);
+    height: 20%;
+}
+
+.logo-circular{
+    border-radius: 50%;
+}
+
+.custom-buscador{
+    border-radius: 2rem;
+    height: 3rem;
+    width: 24rem;
+}
+
+.custom-menu .nav-link:hover{
+  color:var(--beige) !important;
+  transition: color 0.3s ease;
+}
+
+.custom-buscador{
+    background-color: var(--verde-oscuro);
+    border: solid 1px var(--verde-oscuro);
+}
+
+.search-icon{
+    margin-right: 9rem;
+}
+
+.logo-circular {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  transform: scale(1.3); /* Aumentá el valor para hacerlo más grande */
+}
+
+
+.login-btn{
+    border-radius: 1.2rem;
+    background-color: var(--verde-oscuro);
+    width: 8rem;
+    height: 2.2rem;
+}
+
+.login-btn:hover{
+    background-color: var(--beige);
+}
+
+.contenedor-foto {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+
+.custom-foto {
+  width: 100%;     /* el ancho que vos quieras */
+  height: 30rem;    /* el alto que vos quieras */
+  object-fit: cover; /* mantiene proporción sin deformar */
+  object-position: center; /* centra el recorte */
+   filter: brightness(60%); /* oscurece un poco la imagen para que resalte el texto */
+
+}
+
+.texto-foto {
+  position: absolute;
+  top: 50%;                 /* centrado vertical */
+  left: 50%;                /* centrado horizontal */
+  transform: translate(-50%, -50%); /* centra exacto */
+  color: var(--blanco);             /* color del texto */
+  font-size: 1.7rem;
+  font-weight: 400;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7); /* mejora visibilidad */
+  text-align: center;
+  width: 100%;
+}
+
+
+.custom-boton {
+ background-color: var(--verde-oscuro);
+  color: var(--blanco);
+  border-color: var(--blanco);
+  padding: 10px 25px;
+  border-radius: 1.2rem;
+  font-size: 1rem;
+  margin-top: 5rem; /* espacio entre texto y botón */
+}
+
+.custom-boton:hover{
+    background-color: var(--beige);
+    color: var(--marron);
+    border-color: var(--blanco);
+}
+
+
+.caja-circular {
+  width: 6rem;       /* tamaño del círculo */
+  height: 6rem;
+  border-radius: 50%; /* lo hace circular */
+  overflow: hidden;   /* para que la imagen no se salga */
+  margin: 10px auto;  /* centrado */
+  border-color: var(--blanco); /* borde opcional */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* <--- sombra */
+}
+
+.caja-circular:hover {
+  transform: scale(1.05);
+}
+
+.img-circular {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;  /* mantiene proporción sin deformar */
+}
+
+.custom-card{
+  height: 30rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-color: var(--verde-oscuro);
+
+}
+
+.card-text{
+  color: var(--blanco);
+
+}
+
+.custom-boton-tarjeta{
+  border-radius: 2rem;
+  background-color: var(--beige);
+  border-color: var(--blanco);
+}
+
+.custom-boton-tarjeta:hover{
+  color: var(--marron);
+  background-color: var(--naranja);
+  border-color: var(--blanco);
+}
+
+.custom-card img{
+ border-top-left-radius: 1rem;
+ border-top-right-radius: 1rem;
+}
+
+
+.bloque-contacto{
+  background-color: var(--verde-medio);
+}
+
+.textos-contacto{
+  color: var(--blanco);
+}
+
+.icono-social{
+  color: black;
+}
+
+.icono-social:hover{
+  color: var(--beige);
+}

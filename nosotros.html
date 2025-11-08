@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furniture | Nosotros</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg fondo-verde-medio py-3">
+    <div class="container-fluid px-4 d-flex align-items-center justify-content-between">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="imagenes/logo.jpg" class="logo-circular" alt="Logo">
+      </a>
+
+      <div class="d-flex align-items-center flex-grow-1 mx-3">
+        <form class="d-none d-md-flex search-bar flex-grow-1" role="search">
+          <input class="form-control" type="search" placeholder="Buscar...">
+        </form>
+        <i class="bi bi-search search-icon"></i>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="menu">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link text-black" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-black" href="productos.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link text-black" href="novedades.html">Novedades</a></li>
+          <li class="nav-item"><a class="nav-link text-black" href="contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link text-black fw-bold" href="nosotros.html">Nosotros</a></li>
+        </ul>
+        <button class="btn btn-outline-light ms-lg-3 login-btn" onclick="window.location.href='iniciar.html'">Iniciar Sesión</button>
+      </div>
+    </div>
+  </nav>
+
+<header class="hero-video text-white text-center position-relative">
+  <video autoplay muted loop playsinline class="video-bg">
+    <source src="imagenes/videoNosotros.mp4" type="video/mp4">
+    Tu navegador no soporta videos HTML5.
+  </video>
+
+  <div class="hero-video-overlay"></div>
+
+  <div class="hero-overlay container">
+    <h1 class="display-5 fw-bold">ELEGANCIA QUE TRASCIENDE EL TIEMPO</h1>
+    <p class="lead">Diseño clásico, materiales selectos y una artesanía que honra cada detalle con precisión y alma.</p>
+  </div>
+</header>
+
+
+  
+<section class="seccion-beige py-5">
+  <div class="container">
+    <div class="bloque-verde d-flex flex-column flex-md-row align-items-center p-4 rounded-3">
+      <div class="text-center mb-4 mb-md-0 me-md-4">
+        <img src="imagenes/logo.jpg" alt="Logo" class="logo-fabrica">
+      </div>
+
+      <div class="text-white">
+        <p class="texto-fabrica">
+         Desde hace medio siglo, Furniture transforma espacios en experiencias. <br>
+         Con un estilo único que combina la elegancia del diseño clásico y la sensibilidad contemporánea, cada pieza que creamos es el reflejo de una historia: la nuestra, y la de quienes eligen habitar con distinción.<br>
+         Elegancia, confort y durabilidad se entrelazan en cada línea, textura y terminación.<br>
+         Porque creemos que un mueble no es solo un objeto: es una expresión de quienes lo diseñan con pasión y de quienes lo integran a su vida.<br>
+        </p>
+      </div>
+</section>
+
+
+<footer class="bloque-contacto">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center py-3">
+    
+    <div class="d-flex align-items-center gap-3">
+      <img src="imagenes/logo.jpg" alt="Logo" class="logo-contacto">
+    </div>
+
+    <div class="textos-contacto text-center">
+      <p class="mb-1"><i class="bi bi-envelope-fill me-2"></i> correodeejemplo123@gmail.com</p>
+      <p class="mb-0"><i class="bi bi-geo-alt-fill me-2"></i> Calle Tanto 234N</p>
+    </div>
+
+    <div class="d-flex gap-3 mt-3 mt-md-0">
+      <a href="#" class="icono-social"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="icono-social"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="icono-social"><i class="bi bi-whatsapp"></i></a>
+    </div>
+
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
